@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    animation: portada 8s infinite linear alternate;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes portada {
+
+    0%,
+    15% {
+        background-image: url(img/1638563148Banner\ Mobile-02-02.jpg);
+    }
+
+    20%,
+    30% {
+        background-image: url(img/banner2.jpeg);
+    }
+
+    35%,
+    45% {
+        background-image: url(img/banner3.jpeg);
+
+    }
+
+    50%,
+    65% {
+        background-image: url(img/banner4.jpeg);
+    }
+
+    70%,
+    100% {
+        background-image: url(img/banner5.png);
+    }
+}
+
+.opcion {
+    margin-left: 20px;
+}
+
+.lista-menu a {
+    color: #2c2c2c;
+
+
+}
+
+.card {
+    margin: auto;
+}
+
+.img-rio {
+    width: 100%;
+    height: 500px;
+    background-image: url(img/F100027510.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.texto {
+    width: 400px;
+    height: 500px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 45px;
+    line-height: 1.5;
+    margin: 35px;
+    color: white;
+    float: left;
+}
+
+.rio {
+    color: rgb(96, 238, 67);
+}
