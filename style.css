@@ -76,7 +76,7 @@
 }
 
 .caja-srosario p {
-    width: 500px;
+    width: 350px;
     line-height: 2;
     color: #2c2c2c;
     font-size: 20px;
@@ -84,6 +84,14 @@
 
 .carrusel {
     width: 100%;
+}
+
+/*container salon funes. texto e imagenes*/
+.caja-sfunes p {
+    width: 350px;
+    line-height: 2;
+    color: #2c2c2c;
+    font-size: 20px;
 }
 
 .img-rio {
@@ -115,6 +123,10 @@
     margin: auto;
     font-size: 20px;
     line-height: 1.5;
+}
+
+.tipo-eventos hr {
+    border: solid black 1px;
 }
 
 .iconos svg {
@@ -161,4 +173,36 @@
     text-align: center;
 
 
+}
+
+/*footer*/
+
+
+
+
+.ico-footer {
+    margin: auto;
+}
+
+.direccion {
+    float: left;
+    padding-left: 230px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.telefono {
+    float: left;
+    padding-left: 230px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.email {
+    float: left;
+    padding-left: 230px;
+    text-align: center;
+    margin-top: 50px;
 }
